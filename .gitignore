@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project data
+data/raw/
+data/HDFS.log
+data/*.log
+
+# Generated outputs
+outputs/
+*.csv
+*.json
+
+# Local Ollama/cache files
+*.gguf
+
+# Temporary files
+*.tmp
+*.temp
